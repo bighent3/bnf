@@ -4,6 +4,42 @@
 
 import java.io.*;
 import java.util.*;
+// Core JavaFX application classes
+import javafx.application.Application;
+import javafx.stage.Stage;
+import javafx.scene.Scene;
+
+// UI controls
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+
+// Layout panes
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.GridPane;
+
+// Event handling
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+
+// FXML related classes
+import javafx.fxml.FXMLLoader;
+
+// Graphics and media
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
+import javafx.scene.media.MediaView;
+
+// Geometry and positioning
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+
+import java.io.*;
+import java.util.*;
 
 public class GrammarMain {
     public static void main(String[] args) throws FileNotFoundException {
